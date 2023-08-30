@@ -1,3 +1,8 @@
+import sys
+
+# Add your project directory to the Python path
+sys.path.append('utils')
+
 import json
 import requests
 from utils.config import OPENAI_API_KEY, AI_MODEL

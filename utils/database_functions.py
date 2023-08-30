@@ -1,3 +1,8 @@
+import sys
+
+# Add your project directory to the Python path
+sys.path.append('utils')
+
 import psycopg2
 from utils.config import db_credentials
 

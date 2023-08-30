@@ -1,8 +1,5 @@
 import os 
-from dotenv import load_dotenv
 
-
-load_dotenv()
 
 
 # Set up Postgres database credentials

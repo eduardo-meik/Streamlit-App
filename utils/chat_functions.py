@@ -1,3 +1,8 @@
+import sys
+
+# Add your project directory to the Python path
+sys.path.append('utils')
+
 import tiktoken
 import streamlit as st
 from utils.config import AI_MODEL

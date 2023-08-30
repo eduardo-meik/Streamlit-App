@@ -1,3 +1,8 @@
+import sys
+
+# Add your project directory to the Python path
+sys.path.append('utils')
+
 from utils.database_functions import database_schema_string
 
 # Specify function descriptions for OpenAI function calling 
